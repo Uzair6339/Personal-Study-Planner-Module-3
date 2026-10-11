@@ -27,14 +27,5 @@ The dashboard uses the same keys as Modules 1 and 2:
 
 Task fields follow Module 2's existing object structure: `title`, `subjectId`, `subjectName`, `deadline`, and `status` (`pending` or `completed`). No migration is needed.
 
-## Suggested testing
-1. Add a subject in My Subjects.
-2. Add two tasks for that subject.
-3. Mark one task complete and leave the other pending.
-4. Scroll to Progress Dashboard: expected result is 2 total, 1 completed, 1 pending, and 50% progress.
-5. Change task status, edit/delete a task, and verify dashboard values update.
-6. Test the All / Pending / Completed dashboard filter and a narrow mobile width.
-7. Refresh the browser and confirm LocalStorage data persists.
-
 ## Submission
 Upload the updated `index.html`, `css/style.css`, `js/app.js`, and `README.md` to the same GitHub repository that contains the earlier modules. Check whether the internship form requests a repository link, screenshots, or both.
